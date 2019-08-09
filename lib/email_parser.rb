@@ -12,7 +12,7 @@ class EmailParser
   end
   
   def self.parse
-    @@email_list.each do |email|
+    @@email_list.split.collect do |email|
       @@new_list << 
     end
   end
