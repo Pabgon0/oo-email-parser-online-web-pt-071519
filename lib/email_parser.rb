@@ -5,14 +5,16 @@
 class EmailParser
   attr_accessor :email
   @@email_list = []
-
+  @@new_list = []
   def initialize=(email)
     @email = email
     @@email_list << self
   end
   
   def self.parse
-    
+    @@email_list.each do |email|
+      @@new_list << 
+    end
   end
 
 
